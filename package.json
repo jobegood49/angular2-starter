@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "angular2-template-loader": "^0.4.0",
-
     "awesome-typescript-loader": "^2.2.4",
     "typescript": "2.0.10",
     "css-loader": "^0.23.1",
