@@ -1,8 +1,7 @@
-/**
- * Created by jonathannicolas on 09/09/2017.
- */
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { AppComponent } from './app/app.component';
-
-bootstrap(appComponent);
-
+import { enableProdMode } from '@angular/core';
+import { AppModule } from './app/app.module';
+if (process.env.ENV === 'production') {
+    enableProdMode();
+}
+platformBrowserDynamic().bootstrapModule(AppModule);
